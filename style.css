@@ -1,0 +1,53 @@
+html{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background: url('images/simplistic.png') no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content:space-evenly;
+    background-color: transparent;
+    padding: .5em;
+    transition-property:all;
+    transition-duration:0.5s;
+}
+
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar:hover{
+    /*background-color: #6CA0D2;*/
+    /*background-color: #E294BC;*/
+    background-color: #6DC1E6;
+   
+    opacity: .8;
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 13%;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Quicksand', sans-serif;
+    text-shadow:5px 5px 10px rgba(0, 128, 128, 0.411);
+}
+
+.sub-heading{
+    text-align: center;
+}
+
